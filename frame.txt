@@ -1,0 +1,24 @@
+include/
+└── logger/
+    ├── compress/
+    ├── context/
+    ├── crypt/
+    ├── formatter/
+    ├── mmap/
+    ├── proto/
+    ├── sinks/
+    ├── third_party/
+    ├── utils/
+    ├── CMakeLists.txt
+    ├── defer.h
+    ├── internal_log.h
+    ├── log_common.h
+    ├── log_factory.cc
+    ├── log_factory.h
+    ├── log_handle.cc
+    ├── log_handle.h
+    ├── log_msg.cc
+    ├── log_msg.h
+    ├── log_variadic_handle.h
+    ├── logger.h
+    └── space.h

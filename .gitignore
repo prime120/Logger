@@ -1,0 +1,20 @@
+# 构建产物
+  /build/
+  *.o
+  *.a
+  *.so
+
+  # 编译出来的可执行文件（源码 example.cc 保留）
+  /example
+  /macro_example
+
+  # vcpkg 安装目录（如果以后启用了 vcpkg.json 的 builtin-baseline 会自动装）
+  /vcpkg_installed/
+
+  # 编辑器 / IDE
+  .vscode/
+  .clangd
+  compile_commands.json
+
+  # 系统文件
+  .DS_Store
